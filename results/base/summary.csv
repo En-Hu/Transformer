@@ -1,0 +1,2 @@
+lr,batch_size,dropout,best_rougeL,save_dir,train_time
+0.001,64,0.1,0.18374742924047205,results/base/,4237.481978416443
