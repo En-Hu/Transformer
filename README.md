@@ -1,3 +1,6 @@
+# 说明
+本项目实现了Transformer模型并在文本摘要任务上完成训练以及测试的操作。
+
 # 环境配置
 ## 创建环境
 ### 方式一
@@ -24,11 +27,3 @@ bash scripts/ablate2.sh
 
 ## 测试所有训练模型
 bash scripts/test.sh
-
-# 会话命令
-## 创建会话
-screen -S transformer
-## 查看会话
-screen -r transformer
-## 删除会话
-screen -S transformer -X quit
