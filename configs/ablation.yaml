@@ -1,0 +1,24 @@
+base_config: configs/base.yaml
+sample_ratio: 0.05
+
+d_model: 512
+n_heads: 4
+d_ff: 1024
+n_layers: 2
+max_epochs: 10
+
+experiments:
+  - name: "single_head"
+    overrides:
+      n_heads: 1
+  - name: "no_pos_encoding"
+    overrides:
+      use_pos_encoding: false
+  - name: "no_layernorm"
+    overrides:
+      use_layer_norm: false
+  - name: "full_model"
+    overrides:
+      use_pos_encoding: true
+      use_layer_norm: true
+      use_feedforward: true

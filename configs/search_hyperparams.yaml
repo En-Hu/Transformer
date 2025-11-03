@@ -1,0 +1,12 @@
+base_config: configs/base.yaml
+sample_ratio: 0.05
+
+d_model: 512
+d_ff: 1024
+max_epochs: 10
+
+search_space:
+  n_heads: [2, 4]
+  n_layers: [2, 4]
+  batch_size: [64, 128]
+  dropout: [0.1, 0.3]

@@ -1,0 +1,29 @@
+# 数据与路径
+data_dir: datasets/CNN_DailyMail
+save_dir: results/base/
+sample_ratio: 0.1
+
+# 模型结构
+d_model: 512
+n_heads: 4
+d_ff: 2048
+n_layers: 4
+dropout: 0.1
+
+# 训练参数
+device: cuda:2
+seed: 42
+batch_size: 64
+lr: 1e-3
+weight_decay: 0.01
+max_epochs: 20
+grad_clip: 1.0
+
+# 文本
+max_input_len: 512
+max_target_len: 128
+val_eval_samples: 128
+
+# 生成
+min_gen_len: 25
+no_repeat_ngram: 3

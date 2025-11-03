@@ -1,0 +1,92 @@
+[Test] 评测模型: /data/huen/Code/Transformer/results/ablate/run_full_model/best_summ.pt  [TransformerSeq2SeqAblate]
+[Result] R1=0.1247  R2=0.0151  RL=0.1090  samples=128  time=5.74s
+[Model] 参数统计 —— total: 21,661,696  trainable: 21,661,696 (21.662M / 21.662M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/ablate/run_no_layernorm/best_summ.pt  [TransformerSeq2SeqAblate]
+[Result] R1=0.1200  R2=0.0151  RL=0.1034  samples=128  time=5.17s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/ablate/run_no_pos_encoding/best_summ.pt  [TransformerSeq2SeqAblate]
+[Result] R1=0.0594  R2=0.0068  RL=0.0526  samples=128  time=5.70s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/ablate/run_single_head/best_summ.pt  [TransformerSeq2SeqAblate]
+[Result] R1=0.1696  R2=0.0267  RL=0.1366  samples=128  time=5.00s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/ablate2/run_full_model/best_summ.pt  [TransformerSeq2SeqAblate]
+[Result] R1=0.1796  R2=0.0358  RL=0.1373  samples=128  time=5.65s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/ablate2/run_single_head/best_summ.pt  [TransformerSeq2SeqAblate]
+[Result] R1=0.1659  R2=0.0295  RL=0.1268  samples=128  time=5.05s
+[Model] 参数统计 —— total: 44,761,088  trainable: 44,761,088 (44.761M / 44.761M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/base/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2525  R2=0.0535  RL=0.1734  samples=128  time=43.85s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers2_batch_size128_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2226  R2=0.0370  RL=0.1652  samples=128  time=39.79s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers2_batch_size128_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1397  R2=0.0097  RL=0.1033  samples=128  time=38.92s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers2_batch_size64_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2297  R2=0.0438  RL=0.1684  samples=128  time=40.10s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers2_batch_size64_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1465  R2=0.0143  RL=0.1203  samples=128  time=39.56s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers4_batch_size128_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2345  R2=0.0442  RL=0.1735  samples=128  time=42.28s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers4_batch_size128_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1514  R2=0.0177  RL=0.1245  samples=128  time=43.15s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers4_batch_size64_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2426  R2=0.0509  RL=0.1753  samples=128  time=42.68s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads2_n_layers4_batch_size64_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1503  R2=0.0166  RL=0.1249  samples=128  time=43.24s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers2_batch_size128_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1998  R2=0.0310  RL=0.1532  samples=128  time=28.18s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers2_batch_size128_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1106  R2=0.0045  RL=0.0876  samples=128  time=40.61s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers2_batch_size64_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2227  R2=0.0393  RL=0.1626  samples=128  time=42.33s
+[Model] 参数统计 —— total: 25,862,144  trainable: 25,862,144 (25.862M / 25.862M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers2_batch_size64_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1494  R2=0.0078  RL=0.1168  samples=128  time=46.32s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers4_batch_size128_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2324  R2=0.0460  RL=0.1710  samples=128  time=56.10s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers4_batch_size128_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1560  R2=0.0182  RL=0.1255  samples=128  time=60.37s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers4_batch_size64_dropout0.1/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.2272  R2=0.0442  RL=0.1688  samples=128  time=53.86s
+[Model] 参数统计 —— total: 36,364,288  trainable: 36,364,288 (36.364M / 36.364M)
+
+[Test] 评测模型: /data/huen/Code/Transformer/results/search_hyperparams/run_n_heads4_n_layers4_batch_size64_dropout0.3/best_summ.pt  [TransformerSeq2Seq]
+[Result] R1=0.1395  R2=0.0139  RL=0.1196  samples=128  time=50.04s
+
+✅ 全部评测完成！结果已写入 results/test_summary.csv
